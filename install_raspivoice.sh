@@ -12,10 +12,11 @@ TAR_FILENAME=raspivoice_pi.tar
 sudo apt-get install git
 
 # Running on Ubuntu or Rasppberry Pi?
-substring="Ubuntu"
-string1= lsb_release -a | grep $substring
+s1='Ubuntu'
+s2=$(lsb_release -a)
 
-if test "${string1#*$substring}" == $substring
+echo $s2 | grep $s1  1>/dev/null 
+if [ `echo $?` -eq 0 ]
 then
 	echo "Running on Ubuntu"
 	TAR_FILENAME=raspivoice_ubuntu.tar											

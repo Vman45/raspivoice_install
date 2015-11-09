@@ -1,4 +1,4 @@
-# raspivoice_install (for Ubuntu or Raspberry Pi)
+### raspivoice_install (for Ubuntu or Raspberry Pi)
 
 ##### Make sure GIT is installed by doing this:
 > sudo apt-get install git

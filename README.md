@@ -18,8 +18,7 @@
 ##### Install eSpeak
 > sudo apt-get install espeak
 
-##### Install the WAV files used by Raspivoice
-##### NOTE : This can take quite long (about half an hour)
+##### Install the WAV files used by Raspivoice (This can take about half an hour)
 
 > cd /usr/local
 

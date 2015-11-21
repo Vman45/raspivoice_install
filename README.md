@@ -24,13 +24,20 @@
 
 > sudo git clone https://github.com/raspivoice/raspi-wav.git
 
-##### And if you have already previously dowloaded the WAV files and only want to update, just do this:
+##### And if you have already dowloaded the WAV files and only want to update, just do this:
 
 > cd /usr/local/raspi-wav/
 
 > sudo git fetch
 
 ##### If all goes well, the Raspivoice will now be install and ready for use.  The raspivoice binaries itself will reside in the $HOME/bin folder
+
+To try it, make sure audio is enabled for audio jack output (on Rpi) or USB Analog audio (on Ubuntu) and type:
+
+> raspivoice hello world
+> raspivoice thatsall
+
+
 
 
 

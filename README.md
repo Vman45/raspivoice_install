@@ -33,8 +33,7 @@
 ##### Last thing to do would be ensure the sound is directed to the right channel
  The command to do this 
 > amixer cset numid=3 n
- Where <n> is the required interface : 0=auto, 1=analog, 2=hdmi. To force the Raspberry Pi to use the analog output :
- So the actual command to use if you are using the earphone jack:
+ Where <n> is the required interface : 0=auto, 1=analog, 2=hdmi.   To force the Raspberry Pi to use the analog output (earphone jack) would be:
 >> amixer cset numid=3 1
 
 

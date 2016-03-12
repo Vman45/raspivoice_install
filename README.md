@@ -30,6 +30,14 @@
 
 > sudo git fetch
 
+##### Last thing to do would be ensure the sound is directed to the right channel
+> The command to do this 
+> amixer cset numid=3 n
+> Where <n> is the required interface : 0=auto, 1=analog, 2=hdmi. To force the Raspberry Pi to use the analog output :
+> So the actual command to use if you are using the earphone jack:
+> amixer cset numid=3 1
+
+
 ##### If all goes well, the Raspivoice will now be install and ready for use.  The raspivoice binaries itself will reside in the $HOME/bin folder
 
 To try it, make sure audio is enabled for audio jack output (on Rpi) or USB Analog audio (on Ubuntu) and type:

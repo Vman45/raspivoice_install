@@ -35,7 +35,7 @@
 > amixer cset numid=3 n
 > Where <n> is the required interface : 0=auto, 1=analog, 2=hdmi. To force the Raspberry Pi to use the analog output :
 > So the actual command to use if you are using the earphone jack:
-> amixer cset numid=3 1
+>> amixer cset numid=3 1
 
 
 ##### If all goes well, the Raspivoice will now be install and ready for use.  The raspivoice binaries itself will reside in the $HOME/bin folder
